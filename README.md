@@ -42,7 +42,7 @@
 
   - Facebook signup at: [facebook developer](developers.facebook.com)
       ![facebook main page](public/images/facebook1.png)
-  - under 'my apps' go to create app,
+  - under 'my apps' go to create app,\
       ![facebook create page](public/images/facebook2.png)
   - give your app a name, create app id.
       ![facebook main page](public/images/facebook3.png)
