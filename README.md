@@ -42,23 +42,32 @@
 
   - Facebook signup at: [facebook developer](developers.facebook.com)\
       ![facebook main page](public/images/facebook1.png)
+      ---
   - under 'my apps' go to create app,\
       ![facebook create page](public/images/facebook2.png)
+      ---
   - give your app a name, create app id.\
       ![facebook main page](public/images/facebook3.png)
+      ---
   - Go to settings, basic.\
       ![facebook settings page](public/images/facebook4.png)
+      ---
   - Here you will want to grab the app id and app secret.\
       ![facebook app page](public/images/facebook5.png)
+      ---
   - Copy and paste those somewhere safe.\
   - In the field app domain put in 'http://localhost:3000'\
       ![facebook app page](public/images/facebook6.png)
+      ---
   - Scroll down to 'add platform'\
       ![facebook platform page](public/images/facebook7.png)
+      ---
   - Select 'website'\
       ![facebook website page](public/images/facebook8.png)
+      ---
   - Website URL is 'http://localhost:3000'\
       ![facebook website page](public/images/facebook9.png)
+      ---
   - Save\
 
 
