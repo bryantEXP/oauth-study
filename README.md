@@ -1,5 +1,6 @@
 # README
 ## Device + OmniAuth (with guest appearance: Rails Credentials)
+Fork and open this repo i nyour favorite editor to get started.
 
 ## Step One:
   - Let's install gems for devise. In your gem file add:
@@ -109,3 +110,41 @@
       ![Github website page](public/images/github6.png)
       ---
       ---
+
+## Step 5:
+  - Sign up for google here: [google developer](https://console.developers.google.com/)
+  - At the top click on the down arrow.
+      ![Google website page](public/images/google1.png)
+      ---
+      ---
+  - Click on new project
+      ![Google website page](public/images/google2.png)
+      ---
+      ---
+  - Fill in your project name and click create
+      ![Google website page](public/images/google3.png)
+      ---
+      ---
+  - Return to dashboard and make sure your current project is the one listed at the top. Select "Consent Screen" from the right.  Click on "external" then "create"
+      ![Google website page](public/images/google5.png)
+      ---
+      ---
+ - Fill in application name and leave everything else blank.  Click save
+    ![Google website page](public/images/google6.png)
+    ---
+    ---
+ - Click on credentials on the left then select create credentials from the top. After that select OAuth client ID
+    ![Google website page](public/images/google7.png)
+    ---
+    ---
+ - Under application type select "Web Application", give your app a name.
+ - Your JavaScript origin is your local domain. So for the example it is "http://localhost:3000"
+ - Your Authorized redirect URI is "http://localhost:3000/users/auth/google_oauth2/callback"
+ - Select "Create"
+    ![Google website page](public/images/google8.png)
+    ---
+    ---
+- Copy and Paste your Id and secret as before
+
+## Step Five:
+### Lets go to the code!  Follow step by step guide for the rest by searching "Step One", "Step Two", and so on!
