@@ -17,3 +17,6 @@ class User < ApplicationRecord
     end
   end
 end
+
+# Step Sixteen:
+# run `rails g controller omniauth`
