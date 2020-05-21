@@ -80,4 +80,32 @@
   - Save\
 
 
-  - Facebook signup at: [facebook developer](developers.facebook.com)
+  - Github signup at: [github developer](https://github.com/)
+  - Go to settings under your profile picture on the right.
+      ![Github website page](public/images/github1.png)
+      ---
+      ---
+  - Go to developer settings
+      ![Github website page](public/images/github2.png)
+      ---
+      ---
+
+  - Oauth Apps
+      ![Github website page](public/images/github3.png)
+      ---
+      ---
+  - Select new
+      ![Github website page](public/images/github4.png)
+      ---
+      ---
+  - Give your app a name
+  - Hompage url is the domain your website is at. In the example it's "http://localhost:3000"
+  - Using the example about your callback url will be "http://localhost:3000/users/auth/github/callback"
+  - If you change your routes or domain you will need to update this!
+      ![Github website page](public/images/github5.png)
+      ---
+      ---
+  - Copy and paste your id and secret and put it with the others for now.
+      ![Github website page](public/images/github6.png)
+      ---
+      ---
