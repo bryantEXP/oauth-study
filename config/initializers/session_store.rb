@@ -7,6 +7,6 @@ Rails.application.config.session_store :active_record_store, key: '_devise-omnia
 # <--- LESSON --->
 # Next steps are here because you haven't created the files yet.
 # Step Ten:
-# Create two migrations in this order:
+# Create two migrations:
   # rails g migration update_users
   # rails g migration create_sessions
