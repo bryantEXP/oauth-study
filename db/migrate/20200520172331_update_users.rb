@@ -8,3 +8,6 @@ class UpdateUsers < ActiveRecord::Migration[6.0]
 		add_column(:users, :uid, :string, limit: 500, null: false, default: '')
   end
 end
+
+# Step Thirteen:
+# run `rails db:migrate`
