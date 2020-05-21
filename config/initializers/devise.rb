@@ -260,12 +260,20 @@ Devise.setup do |config|
   # Add a new OmniAuth provider. Check the wiki for more information on setting
   # up on your models and hooks.
   # config.omniauth :github, 'APP_ID', 'APP_SECRET', scope: 'user,public_repo'
+
+  # <---- LESSON ---->
+  # Step Seven:
+  # Here is where we are making calls to the credentials file we just created.
+  # Detailed Explanation in Video.
   config.omniauth :facebook, Rails.application.credentials.dig(:facebook, :facebook_client_id),
   Rails.application.credentials.dig(:facebook, :facebook_client_secret), scope: 'public_profile,email'
   config.omniauth :github, Rails.application.credentials.dig(:github, :github_client_id),
   Rails.application.credentials.dig(:github, :github_client_secret), scope: 'user,public_repo'
   config.omniauth :google_oauth2, Rails.application.credentials.dig(:google, :google_client_id),
   Rails.application.credentials.dig(:google, :google_client_secret), scope: 'userinfo.email,userinfo.profile'
+
+  # Step Eight:
+  # Create a file in /config/initializers called "session_store.rb"
 
   # ==> Warden configuration
   # If you want to use other strategies, that are not supported by Devise, or
