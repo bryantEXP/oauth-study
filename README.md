@@ -1,8 +1,9 @@
 # README
 ## Device + OmniAuth (with guest appearance: Rails Credentials)
-Fork and open this repo i nyour favorite editor to get started.
+Fork and open this repo in your favorite editor to get started.
+[Youtube Walk Through](https://youtu.be/P-MWCdm9R2c)
 
-## Step One:
+## Gems:
   - Let's install gems for devise. In your gem file add:
     ```
       gem 'devise'
@@ -11,7 +12,7 @@ Fork and open this repo i nyour favorite editor to get started.
     ```
   - run `bundle install`
 
-## Step Two:
+## Devise:
   - Set up devise.
       run `rails g devise:install`
   - Create a devise model.  It can be named anything but here we will use 'user'.
@@ -21,7 +22,7 @@ Fork and open this repo i nyour favorite editor to get started.
       run `rails db:create`
       run `rails db:migrate`
 
-## Step Three:
+## Views:
   - Set up devise views.
       run `rails g devise:views`
   - Add a home page to test on.
@@ -38,9 +39,10 @@ Fork and open this repo i nyour favorite editor to get started.
         <% end %>
         ```
 
-## Step Four:
+## Providers:
   - Signup for your Oauth ids.
 
+### Facebook
   - Facebook signup at: [facebook developer](developers.facebook.com)\
       ![facebook main page](public/images/facebook1.png)
       ---
@@ -80,7 +82,7 @@ Fork and open this repo i nyour favorite editor to get started.
       ---
   - Save\
 
-
+### Github
   - Github signup at: [github developer](https://github.com/)
   - Go to settings under your profile picture on the right.
       ![Github website page](public/images/github1.png)
@@ -111,7 +113,7 @@ Fork and open this repo i nyour favorite editor to get started.
       ---
       ---
 
-## Step Five:
+### Google
   - Sign up for google here: [google developer](https://console.developers.google.com/)
   - At the top click on the down arrow.
       ![Google website page](public/images/google1.png)
@@ -146,5 +148,5 @@ Fork and open this repo i nyour favorite editor to get started.
     ---
 - Copy and Paste your Id and secret as before
 
-## Step Six:
-### Lets go to the code!  Follow step by step guide for the rest by searching "Step One", "Step Two", and so on!
+## The Code:
+### Lets go to the code!  Follow step by step guide for the rest by searching "Step One", "Step Two", and so on! There are 18 additional steps in all.
