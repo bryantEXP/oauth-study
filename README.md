@@ -111,7 +111,7 @@ Fork and open this repo i nyour favorite editor to get started.
       ---
       ---
 
-## Step 5:
+## Step Five:
   - Sign up for google here: [google developer](https://console.developers.google.com/)
   - At the top click on the down arrow.
       ![Google website page](public/images/google1.png)
@@ -146,5 +146,5 @@ Fork and open this repo i nyour favorite editor to get started.
     ---
 - Copy and Paste your Id and secret as before
 
-## Step Five:
+## Step Six:
 ### Lets go to the code!  Follow step by step guide for the rest by searching "Step One", "Step Two", and so on!
