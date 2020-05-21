@@ -1,5 +1,9 @@
 class OmniauthController < ApplicationController
 
+# <--- LESSON --->
+# Step Seventeen:
+# Write a method to handle assigning oauth data to user and error handling.
+
   def facebook
   @user = User.create_from_provider_data(request.env['omniauth.auth'])
     if @user.persisted?
