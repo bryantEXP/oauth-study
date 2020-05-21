@@ -22,18 +22,52 @@ gem 'jbuilder', '~> 2.7'
 # Use Active Model has_secure_password
 # gem 'bcrypt', '~> 3.1.7'
 
-gem 'devise'
-gem 'ruby_parser'
-gem 'nokogiri'
+# <---- LESSON ---->
+# Install these before doing anything else!
+gem 'devise' # The main gym you need to use devise
+gem 'ruby_parser' # Optional.  If you run into any issues come back and install
+gem 'nokogiri' # Optional.  If you run into any issues come back and install
 
-gem 'omniauth'
-
+# <---- LESSON ---->
+# Step One:
+# Install these gems.  If you are only using one, then only install one.
 gem 'omniauth-facebook'
 gem 'omniauth-github'
 gem 'omniauth-google-oauth2'
 
+# Step Two:
+# Optional. If you run into any errors involving omniauth, install this gem.
+gem 'omniauth'
+
+# Step Three:
+# helps with storing session from the Oauth so the session persists.
 gem 'activerecord-session_store'
 
+# Step Four:
+# Run `bundle install`
+
+# Step Five:
+# Putting this step here because you won't find it if I put it in the
+# credentials file.
+# run 'EDITOR="atom –wait" rails credentials:edit' in your command line.
+# This will open your rails credentials file.
+# Insert this code into that file, replace "YOUR_ID" with your id for each
+# proivder and replace "YOUR_SECRET" with your secret.
+
+# facebook:
+#   facebook_client_id: YOUR_ID
+#   facebook_client_secret: YOUR_SECRET
+#
+# github:
+#   github_client_id: YOUR_ID
+#   github_client_secret: YOUR_SECRET
+#
+# google:
+#   google_client_id: YOUR_ID
+#   google_client_secret: YOUR_SECRET
+
+# Step Six:
+# SAVE AND THEN CLOSE THE FILE!  This file will not persist if you do not close it!
 
 # Use Active Storage variant
 # gem 'image_processing', '~> 1.2'
